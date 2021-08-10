@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const ResultDetail = ({dataLocalisation}) => {
 
 const data = dataLocalisation.data[0]
-console.log(dataLocalisation);
 
     return(
       <>

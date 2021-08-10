@@ -44,7 +44,6 @@ const getDataIp = (e) => {
 
 }
 
-console.log(dataLocalisation);
 
 
     return (
