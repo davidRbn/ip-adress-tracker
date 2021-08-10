@@ -9,6 +9,7 @@ const Map = ({dataLocalisation}) => {
 
     const data = dataLocalisation.data[0]
     const loaded = dataLocalisation.loaded
+    const apiMap=process.env.REACT_APP_API_KEY_MAP
 
     const defaultProps = {
         center: {
@@ -23,7 +24,7 @@ const Map = ({dataLocalisation}) => {
       
         <DivMap>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyBIZqLYkTZywlCkLAjjU0SBCTyl-Ut_jNk" }}
+          bootstrapURLKeys={{ key: apiMap }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
           center={{lat:data.lat,lng:data.lng}}
