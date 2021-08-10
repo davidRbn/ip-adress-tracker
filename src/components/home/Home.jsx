@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 // import styled from 'styled-components'
 import Header from '../header/Header'
 import Map from '../map/Map'
-import ResultDetail from '../resultDetail/ResultDetail'
 
 const Home = () => {
 
